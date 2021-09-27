@@ -51,6 +51,11 @@ header .logo{
 header .logo a{
     color: coral;
     text-decoration: none;
+    transition: .2s ease-out;
+}
+header .logo a:hover{
+    color: rgb(80, 191, 255);
+    transition: .2s ease-in;
 }
 header .menu{
     float: right;
@@ -66,6 +71,18 @@ header ul li a{
     margin: 0 2.5rem;
     font-weight: 300;
     letter-spacing: .1rem;
+    transform: scale(1);
+    transition: .2s ease-in;
+}
+header ul li a:hover{
+    text-decoration: none;
+    color: rgb(80, 191, 255);
+    font-size: 1.2rem;
+    margin: 0 2.5rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    transform: scale(1.6);
+    transition: .2s ease-out;
 }
 .content{
     max-width: 55%;
